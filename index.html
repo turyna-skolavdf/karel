@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karel Robot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Karel - HTML/JS verze</h1>
+    <textarea id="commands" placeholder="Zadejte příkazy sem..."></textarea>
+    <br>
+    <button id="run-btn">Proveď</button>
+    <div id="command-list">
+        <h3>Seznam příkazů:</h3>
+        <ul>
+            <li><b>RESET</b> - Resetuje pole a vrátí Karla do levého horního rohu.</li>
+            <li><b>KROK [číslo]</b> - Posune Karla o daný počet kroků ve směru jeho natočení (výchozí = 1).</li>
+            <li><b>VLEVOBOK [číslo]</b> - Otočí Karla doleva o daný počet otoček (výchozí = 1).</li>
+            <li><b>OTOC</b> - Otočí Karla zpět o 180 stupňů.</li>
+            <li><b>POLOZ [písmeno/barva]</b> - Položí zadaný symbol na aktuální pozici Karla.</li>
+            <li><b>VYMAZ</b> - Vymaže obsah aktuálního políčka.</li>
+        </ul>
+    </div>
+</div>
+<div class="container">
+    <div id="board"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

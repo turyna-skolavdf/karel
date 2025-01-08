@@ -12,9 +12,13 @@ Tato aplikace simuluje robota Karla, který se pohybuje po 2D herním poli na z�
 
 ``
 KROK 3 
+
 VLEVOBOK 2 
+
 POLOZ 
+
 OTOC 
+
 KROK 4
 ``
 

@@ -10,17 +10,13 @@ Tato aplikace simuluje robota Karla, který se pohybuje po 2D herním poli na z�
 
 ### Příklady použití:
 
-``
+```
 KROK 3 
-
 VLEVOBOK 2 
-
 POLOZ 
-
 OTOC 
-
 KROK 4
-``
+```
 
 ## Seznam příkazů
 

@@ -26,6 +26,7 @@ KROK 1
 VLEBOBOK 3
 KROK 1
 ```
+
 ![Images](/images/zakladni-zobrazeni.png "Základní zobrazení")
 
 ## Seznam příkazů
